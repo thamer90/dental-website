@@ -9,6 +9,19 @@ h4 { font-size: 180%; }
 h5 { font-size: 130%; }
 h6 { font-size: 100%; }
 
+// Custom Fonts
+@font-face {
+    font-family: impregnablePU;
+    src: url(../fonts/Impregnable_Personal_Use_Only.ttf);
+}
+@font-face {
+    font-family: helveticaNeue;
+    src: url(../fonts/HelveticaNeue.ttf);
+}
+@font-face {
+    font-family: ubuntu;
+    src: url(../fonts/ubuntu.light.ttf);
+}
 
 // Links
 .link {

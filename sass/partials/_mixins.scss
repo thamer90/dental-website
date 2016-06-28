@@ -15,6 +15,13 @@
   background-clip: padding-box;  /* stops bg color from leaking outside the border: */
 }
 
+// Box shadow
+@mixin box-shadow($top, $left, $blur, $color) {
+  -webkit-box-shadow:$top $left $blur $color;
+  -moz-box-shadow:$top $left $blur $color;
+  box-shadow:$top $left $blur $color;
+}
+
 // Center align
 @mixin center-block {
   display: block;
@@ -33,6 +40,19 @@
   opacity: $opacity;
   $opacity-ie: $opacity * 100;
   filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+// Responsive breakpoints
+@mixin breakpoint($point) {
+  @if $point == 1300 {
+    @media (max-width: 1300px) { @content; }
+  }
+  @else if $point == 981 {
+    @media (max-width: 981px) { @content; }
+  }
+  @else if $point == 767 {
+    @media (max-width: 767px) { @content; }
+  }
 }
 
 // Transitions
