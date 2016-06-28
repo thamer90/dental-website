@@ -1,8 +1,48 @@
+/*
+ Stylesheet for Website
+ Authors: Thamer Al-Merry
+ Date: 28 June 2016
+*/
+
 // Modules and Variables
 @import "modules/base";
 
 // Partials
+@import "partials/mixins";
 @import "partials/reset";
-@import "partials/typography";
 @import "partials/buttons";
+@import "partials/typography";
 @import "partials/grids";
+
+
+// Global styles
+html {
+    font-family: $base-font-family;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.push-left {
+    float: left;
+}
+
+.push-right {
+    float: right;
+}
+
+.hidden {
+    display: none;
+}
