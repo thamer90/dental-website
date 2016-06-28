@@ -1,0 +1,15 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/main.scss",
+		"../sass/modules/_base.scss",
+		"../sass/modules/_colours.scss",
+		"../sass/partials/_reset.scss",
+		"../sass/partials/_typography.scss",
+		"../sass/partials/_buttons.scss",
+		"../sass/partials/_grids.scss"
+	],
+	"mappings": "",
+	"names": []
+}
