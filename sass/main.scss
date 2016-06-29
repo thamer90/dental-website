@@ -207,6 +207,12 @@ nav ul {
         font-size: 13px;
     }
 
+    .col-1-1 img {
+        @include breakpoint(435) {
+            margin-top: 10px;
+        }
+    }
+
     .col-1-2 {
         border-left: 2px solid $blue-border;
         border-right: 2px solid $blue-border;
@@ -214,6 +220,10 @@ nav ul {
         img, span {
             display: inline-block;
             margin: 0 10px;
+
+            @include breakpoint(320) {
+                margin: 0 2px;
+            }
         }
     }
 }

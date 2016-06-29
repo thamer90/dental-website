@@ -56,6 +56,12 @@
   @else if $point == 767 {
     @media (max-width: 767px) { @content; }
   }
+  @else if $point == 435 {
+    @media (max-width: 435px) { @content; }
+  }
+  @else if $point == 320 {
+    @media (max-width: 320px) { @content; }
+  }
 }
 
 // Transitions

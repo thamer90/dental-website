@@ -341,12 +341,18 @@ nav ul {
   .mobile-header-wrapper p, .mobile-header-wrapper .top-wrapper .banner-text, .top-wrapper .mobile-header-wrapper .banner-text {
     line-height: 0.8;
     font-size: 13px; }
+  @media (max-width: 435px) {
+    .mobile-header-wrapper .col-1-1 img {
+      margin-top: 10px; } }
   .mobile-header-wrapper .col-1-2 {
     border-left: 2px solid #b8d5f1;
     border-right: 2px solid #b8d5f1; }
     .mobile-header-wrapper .col-1-2 img, .mobile-header-wrapper .col-1-2 span {
       display: inline-block;
       margin: 0 10px; }
+      @media (max-width: 320px) {
+        .mobile-header-wrapper .col-1-2 img, .mobile-header-wrapper .col-1-2 span {
+          margin: 0 2px; } }
 
 .mobile {
   display: none;
