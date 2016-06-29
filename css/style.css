@@ -3,7 +3,7 @@
  Authors: Thamer Al-Merry
  Date: 28 June 2016
 */
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, pre, a, strong, b, u, i, ol, ul, li, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, figcaption, footer, header, nav, section {
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, .top-wrapper .banner-text, pre, a, strong, b, u, i, ol, ul, li, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, figcaption, footer, header, nav, section {
   margin: 0;
   padding: 0;
   border: 0;
@@ -167,8 +167,11 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
 
-p {
-  font-size: 12px;
+p, .top-wrapper .banner-text {
+  font-family: helveticaNeue;
+  font-size: 15px;
+  color: #5f5f5f;
+  line-height: 1.5;
   margin: 0 0 0.5em 0; }
 
 strong {
@@ -206,10 +209,14 @@ img {
 .header-wrapper {
   font-family: helveticaNeue;
   padding: 0 100px; }
-  .header-wrapper p {
-    color: #273c72; }
+  .header-wrapper p, .header-wrapper .top-wrapper .banner-text, .top-wrapper .header-wrapper .banner-text {
+    color: #273c72;
+    line-height: 0.8;
+    font-size: 13px; }
   .header-wrapper strong {
     font-size: 14px; }
+  .header-wrapper p, .header-wrapper .top-wrapper .banner-text, .top-wrapper .header-wrapper .banner-text {
+    margin-top: 5px; }
   .header-wrapper img.push-right {
     margin: 0 15px; }
   @media (max-width: 767px) {
@@ -314,6 +321,9 @@ nav ul {
       position: relative;
       color: #273c72;
       background-color: #e2f3fe; } }
+  .mobile-header-wrapper p, .mobile-header-wrapper .top-wrapper .banner-text, .top-wrapper .mobile-header-wrapper .banner-text {
+    line-height: 0.8;
+    font-size: 13px; }
   .mobile-header-wrapper .col-1-2 {
     border-left: 2px solid #b8d5f1;
     border-right: 2px solid #b8d5f1; }
@@ -360,6 +370,12 @@ nav ul {
     font-size: 110px;
     color: #273c72; }
   .top-wrapper .banner-text {
-    font-family: helveticaNeue;
-    font-size: 16px;
-    color: #5f5f5f; }
+    font-size: 16px; }
+
+.top-middle-wrapper {
+  margin: 50px 0; }
+  .top-middle-wrapper h4 {
+    font-family: ubuntu;
+    color: #cb1f47;
+    font-weight: 400;
+    margin-bottom: 15px; }

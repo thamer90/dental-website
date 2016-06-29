@@ -23,7 +23,10 @@ html {
 }
 
 p {
-    font-size: 12px;
+    font-family: helveticaNeue;
+    font-size: 15px;
+    color: $base-font-color;
+    line-height: 1.5;
     margin: 0 0 0.5em 0;
 }
 
@@ -76,10 +79,16 @@ img {
 
     p {
         color: $blue;
+        line-height: 0.8;
+        font-size: 13px;
     }
 
     strong {
         font-size: 14px;
+    }
+
+    p {
+        margin-top: 5px;
     }
 
     img.push-right {
@@ -193,6 +202,11 @@ nav ul {
         background-color: $lightblue-bg;
     }
 
+    p {
+        line-height: 0.8;
+        font-size: 13px;
+    }
+
     .col-1-2 {
         border-left: 2px solid $blue-border;
         border-right: 2px solid $blue-border;
@@ -251,10 +265,19 @@ nav ul {
     }
 
     .banner-text {
-        font-family: helveticaNeue;
+        @extend p;
         font-size: 16px;
-        color: $base-font-color;
     }
 }
 
 // Top-Middle Wrapper
+.top-middle-wrapper {
+    margin: 50px 0;
+
+    h4 {
+        font-family: ubuntu;
+        color: $red;
+        font-weight: $regular;
+        margin-bottom: 15px;
+    }
+}
