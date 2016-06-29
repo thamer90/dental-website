@@ -400,3 +400,18 @@ nav ul {
         }
     }
 }
+
+// Bottom Wrapper
+.bottom-wrapper {
+    margin: 30px 0;
+}
+
+// Footer
+footer {
+    margin: 15px 0 40px;
+
+    .copyright-info {
+        color: $gray / 1.5;
+        font-size: 12px;
+    }
+}

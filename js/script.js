@@ -22,4 +22,9 @@ $(document).ready(function() {
         $("#"+tab_id).addClass('current');
    })
 
+    // Prevent the default action of the anchor
+    $('a').click(function(e) {
+      e.preventDefault();
+    });
+
 });

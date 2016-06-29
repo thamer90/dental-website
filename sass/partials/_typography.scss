@@ -10,17 +10,33 @@ h5 { font-size: 130%; }
 h6 { font-size: 100%; }
 
 // Custom Fonts
+
 @font-face {
     font-family: impregnablePU;
-    src: url(../fonts/Impregnable_Personal_Use_Only.ttf);
+    src: url("http://db.onlinewebfonts.com/t/c27fe4a9fe5e185f8c2e4ae6d6001345.eot");
+    src: url("http://db.onlinewebfonts.com/t/c27fe4a9fe5e185f8c2e4ae6d6001345.eot?#iefix") format("embedded-opentype"),
+    url("http://db.onlinewebfonts.com/t/c27fe4a9fe5e185f8c2e4ae6d6001345.woff2") format("woff2"),
+    url("http://db.onlinewebfonts.com/t/c27fe4a9fe5e185f8c2e4ae6d6001345.woff") format("woff"),
+    url("http://db.onlinewebfonts.com/t/c27fe4a9fe5e185f8c2e4ae6d6001345.ttf") format("truetype"),
+    url("http://db.onlinewebfonts.com/t/c27fe4a9fe5e185f8c2e4ae6d6001345.svg#ImpregnableW01-Regular") format("svg");
 }
 @font-face {
     font-family: helveticaNeue;
-    src: url(../fonts/HelveticaNeue.ttf);
+    src: url("http://db.onlinewebfonts.com/t/4b94982a9603dd89cf49dd9bcb0f0d60.eot");
+    src: url("http://db.onlinewebfonts.com/t/4b94982a9603dd89cf49dd9bcb0f0d60.eot?#iefix") format("embedded-opentype"),
+    url("http://db.onlinewebfonts.com/t/4b94982a9603dd89cf49dd9bcb0f0d60.woff2") format("woff2"),
+    url("http://db.onlinewebfonts.com/t/4b94982a9603dd89cf49dd9bcb0f0d60.woff") format("woff"),
+    url("http://db.onlinewebfonts.com/t/4b94982a9603dd89cf49dd9bcb0f0d60.ttf") format("truetype"),
+    url("http://db.onlinewebfonts.com/t/4b94982a9603dd89cf49dd9bcb0f0d60.svg#Helvetica Neue") format("svg");
 }
 @font-face {
     font-family: ubuntu;
-    src: url(../fonts/ubuntu.light.ttf);
+    src: url("http://db.onlinewebfonts.com/t/1c5965c2b1dcdea439b54c3ac60cee38.eot");
+    src: url("http://db.onlinewebfonts.com/t/1c5965c2b1dcdea439b54c3ac60cee38.eot?#iefix") format("embedded-opentype"),
+    url("http://db.onlinewebfonts.com/t/1c5965c2b1dcdea439b54c3ac60cee38.woff2") format("woff2"),
+    url("http://db.onlinewebfonts.com/t/1c5965c2b1dcdea439b54c3ac60cee38.woff") format("woff"),
+    url("http://db.onlinewebfonts.com/t/1c5965c2b1dcdea439b54c3ac60cee38.ttf") format("truetype"),
+    url("http://db.onlinewebfonts.com/t/1c5965c2b1dcdea439b54c3ac60cee38.svg#Ubuntu") format("svg");
 }
 
 // Links
