@@ -249,6 +249,7 @@ nav ul {
         margin: 100px 0;
 
         @include breakpoint(767) {
+          text-align: center;
           margin: 0;
         }
     }
@@ -256,6 +257,18 @@ nav ul {
     .col-3:last-child {
         padding-bottom: 0;
         line-height: 0;
+
+        @include breakpoint(767) {
+          text-align: center;
+        }
+    }
+
+    .banner-img {
+        max-width: none;
+
+        @include breakpoint(767) {
+          max-width: 100%;
+        }
     }
 
     .banner-heading {

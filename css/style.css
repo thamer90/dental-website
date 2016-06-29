@@ -368,10 +368,19 @@ nav ul {
     margin: 100px 0; }
     @media (max-width: 767px) {
       .top-wrapper .col-3:first-child {
+        text-align: center;
         margin: 0; } }
   .top-wrapper .col-3:last-child {
     padding-bottom: 0;
     line-height: 0; }
+    @media (max-width: 767px) {
+      .top-wrapper .col-3:last-child {
+        text-align: center; } }
+  .top-wrapper .banner-img {
+    max-width: none; }
+    @media (max-width: 767px) {
+      .top-wrapper .banner-img {
+        max-width: 100%; } }
   .top-wrapper .banner-heading {
     font-family: impregnablePU;
     font-size: 110px;
