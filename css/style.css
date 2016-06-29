@@ -452,3 +452,14 @@ nav ul {
   @media (max-width: 802px) {
     .middle-wrapper .tab-content.current {
       display: inherit; } }
+
+.bottom-middle-wrapper {
+  background: #e2f3fe; }
+  @media (max-width: 767px) {
+    .bottom-middle-wrapper .col-3 {
+      padding-bottom: 0; } }
+  .bottom-middle-wrapper .col-3 h5 {
+    font-family: ubuntu;
+    color: #273c72;
+    font-weight: 600;
+    margin-bottom: 15px; }
