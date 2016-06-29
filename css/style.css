@@ -38,7 +38,9 @@ table {
   background-color: #cb1f47;
   color: #fff;
   padding: 7px 15px;
-  font-size: 16px; }
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600; }
   .button-red:hover, .button-red:visited:hover {
     background-color: #a21939;
     cursor: pointer; }
@@ -125,6 +127,9 @@ h6 {
 .col-1 {
   width: 16.66%; }
 
+.col-1-4 {
+  width: 25%; }
+
 .col-2 {
   width: 33.33%; }
 
@@ -145,6 +150,8 @@ h6 {
     width: 16.66%; }
   .col-1-2 {
     width: 66.66%; }
+  .col-1-4 {
+    width: 100%; }
   .col-1 {
     width: 33.33%; }
   .col-2 {
@@ -373,9 +380,33 @@ nav ul {
     font-size: 16px; }
 
 .top-middle-wrapper {
-  margin: 50px 0; }
+  padding: 50px 0;
+  border-bottom: 1px solid #e6e6e6; }
   .top-middle-wrapper h4 {
     font-family: ubuntu;
     color: #cb1f47;
     font-weight: 400;
     margin-bottom: 15px; }
+
+.middle-wrapper {
+  padding: 100px 0 50px; }
+  .middle-wrapper .col-6 {
+    background: #e2f3fe;
+    padding: 45px 15px; }
+    .middle-wrapper .col-6 img {
+      margin: -100px 0 15px 0; }
+    .middle-wrapper .col-6 h5 {
+      font-family: ubuntu;
+      color: #273c72;
+      font-weight: 600;
+      margin-bottom: 15px; }
+    .middle-wrapper .col-6 p, .middle-wrapper .col-6 .top-wrapper .banner-text, .top-wrapper .middle-wrapper .col-6 .banner-text {
+      font-size: 13px;
+      margin: 15px 0 25px; }
+  .middle-wrapper .enquiry-section {
+    margin: 50px 0 30px; }
+    .middle-wrapper .enquiry-section h4 {
+      font-family: ubuntu;
+      color: #273c72;
+      font-weight: 400;
+      margin-bottom: 15px; }

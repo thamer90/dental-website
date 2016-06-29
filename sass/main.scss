@@ -272,12 +272,50 @@ nav ul {
 
 // Top-Middle Wrapper
 .top-middle-wrapper {
-    margin: 50px 0;
+    padding: 50px 0;
+    border-bottom: 1px solid $gray;
 
     h4 {
         font-family: ubuntu;
         color: $red;
         font-weight: $regular;
         margin-bottom: 15px;
+    }
+}
+
+// Middle Wrapper
+.middle-wrapper {
+    padding: 100px 0 50px;
+
+    .col-6 {
+        background: $lightblue-bg;
+        padding: 45px 15px;
+
+        img {
+            margin: -100px 0 15px 0;
+        }
+
+        h5 {
+            font-family: ubuntu;
+            color: $blue;
+            font-weight: $bold;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 13px;
+            margin: 15px 0 25px;
+        }
+    }
+
+    .enquiry-section{
+        margin: 50px 0 30px;
+
+        h4 {
+            font-family: ubuntu;
+            color: $blue;
+            font-weight: $regular;
+            margin-bottom: 15px;
+        }
     }
 }
