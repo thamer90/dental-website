@@ -243,6 +243,7 @@ nav ul {
 // Top Wrapper
 .top-wrapper {
     position: relative;
+    overflow: hidden;
     background-color: $lightblue-bg;
 
     .col-3:first-child {
@@ -330,5 +331,53 @@ nav ul {
             font-weight: $regular;
             margin-bottom: 15px;
         }
+
+        @include breakpoint(802) {
+            border-top: 1px solid $gray;
+            border-bottom: 1px solid $gray;
+            padding: 25px 0 10px;
+        }
     }
+
+    ul.tabs {
+        display:none;
+
+        @include breakpoint(802) {
+            display: inline-block;
+    		margin: 0px;
+    		padding: 0px;
+    		list-style: none;
+        }
+
+    	li {
+        	color: $blue;
+    		display: inline-block;
+    		font-size: 50px;
+    		cursor: pointer;
+    	}
+
+    	li:after {
+    		content: url('../img/unchecked.png');
+    	}
+
+    	li.current {
+    		color: $blue;
+    	}
+
+    	li.current:after {
+    		content: url('../img/checked.png');
+    	}
+	}
+
+	.tab-content {
+        @include breakpoint(802) {
+    		display: none;
+        }
+	}
+
+	.tab-content.current {
+        @include breakpoint(802) {
+		    display: inherit;
+        }
+	}
 }

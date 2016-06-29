@@ -6,7 +6,20 @@ Script for Website
 
 // On document ready
 $(document).ready(function() {
-  $('.js-mobile').click(function () {
-      $('nav').toggleClass('active');
-   });
+
+    // Click function for nav menu
+    $('.js-mobile').click(function () {
+        $('nav').toggleClass('active');
+    });
+
+    // Click function for tabbed data
+    $('ul.tabs li').click(function(){
+        var tab_id = $(this).attr('data-tab');
+
+        $('ul.tabs li').removeClass('current');
+        $('.tab-content').removeClass('current');
+        $(this).addClass('current');
+        $("#"+tab_id).addClass('current');
+   })
+
 });

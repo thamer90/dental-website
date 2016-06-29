@@ -50,6 +50,9 @@
   @else if $point == 981 {
     @media (max-width: 981px) { @content; }
   }
+  @else if $point == 802 {
+    @media (max-width: 802px) { @content; }
+  }
   @else if $point == 767 {
     @media (max-width: 767px) { @content; }
   }

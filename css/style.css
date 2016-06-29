@@ -150,8 +150,6 @@ h6 {
     width: 16.66%; }
   .col-1-2 {
     width: 66.66%; }
-  .col-1-4 {
-    width: 100%; }
   .col-1 {
     width: 33.33%; }
   .col-2 {
@@ -167,6 +165,10 @@ h6 {
   .row .col-2:last-of-type {
     width: 100%; }
   .row .col-5 ~ .col-1 {
+    width: 100%; } }
+
+@media (max-width: 802px) {
+  .col-1-4 {
     width: 100%; } }
 
 html {
@@ -363,6 +365,7 @@ nav ul {
 
 .top-wrapper {
   position: relative;
+  overflow: hidden;
   background-color: #e2f3fe; }
   .top-wrapper .col-3:first-child {
     margin: 100px 0; }
@@ -419,3 +422,33 @@ nav ul {
       color: #273c72;
       font-weight: 400;
       margin-bottom: 15px; }
+    @media (max-width: 802px) {
+      .middle-wrapper .enquiry-section {
+        border-top: 1px solid #e6e6e6;
+        border-bottom: 1px solid #e6e6e6;
+        padding: 25px 0 10px; } }
+  .middle-wrapper ul.tabs {
+    display: none; }
+    @media (max-width: 802px) {
+      .middle-wrapper ul.tabs {
+        display: inline-block;
+        margin: 0px;
+        padding: 0px;
+        list-style: none; } }
+    .middle-wrapper ul.tabs li {
+      color: #273c72;
+      display: inline-block;
+      font-size: 50px;
+      cursor: pointer; }
+    .middle-wrapper ul.tabs li:after {
+      content: url("../img/unchecked.png"); }
+    .middle-wrapper ul.tabs li.current {
+      color: #273c72; }
+    .middle-wrapper ul.tabs li.current:after {
+      content: url("../img/checked.png"); }
+  @media (max-width: 802px) {
+    .middle-wrapper .tab-content {
+      display: none; } }
+  @media (max-width: 802px) {
+    .middle-wrapper .tab-content.current {
+      display: inherit; } }

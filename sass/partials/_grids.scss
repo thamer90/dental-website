@@ -40,7 +40,6 @@
 @include breakpoint(767) {
     .col-1-1{ width: 16.66%; }
     .col-1-2{ width: 66.66%; }
-    .col-1-4 { width: 100%; }
     .col-1{ width: 33.33%; }
     .col-2{ width: 50%; }
     .col-3{ width: 100%; }
@@ -55,4 +54,8 @@
     .row .col-5 ~ .col-1{
         width: 100%;
     }
+}
+
+@include breakpoint(802) {
+    .col-1-4 { width: 100%; }
 }
