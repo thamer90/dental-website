@@ -184,6 +184,9 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
 
+a {
+  color: #273c72; }
+
 p, .top-wrapper .banner-text {
   font-family: helveticaNeue;
   font-size: 15px;
@@ -229,11 +232,10 @@ img {
   .header-wrapper p, .header-wrapper .top-wrapper .banner-text, .top-wrapper .header-wrapper .banner-text {
     color: #273c72;
     line-height: 0.8;
-    font-size: 13px; }
+    font-size: 13px;
+    margin-top: 5px; }
   .header-wrapper strong {
     font-size: 14px; }
-  .header-wrapper p, .header-wrapper .top-wrapper .banner-text, .top-wrapper .header-wrapper .banner-text {
-    margin-top: 5px; }
   .header-wrapper img.push-right {
     margin: 0 15px; }
   @media (max-width: 767px) {

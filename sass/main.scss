@@ -22,6 +22,10 @@ html {
     -ms-text-size-adjust: 100%
 }
 
+a {
+    color: $blue;
+}
+
 p {
     font-family: helveticaNeue;
     font-size: 15px;
@@ -81,14 +85,11 @@ img {
         color: $blue;
         line-height: 0.8;
         font-size: 13px;
+        margin-top: 5px;
     }
 
     strong {
         font-size: 14px;
-    }
-
-    p {
-        margin-top: 5px;
     }
 
     img.push-right {
