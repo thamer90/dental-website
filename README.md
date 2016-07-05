@@ -1,2 +1,2 @@
 # dental-website
-Dental Website Interface
+Dental Website Interface - Developed in SASS
