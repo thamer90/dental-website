@@ -7,17 +7,17 @@
   <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
     <meta charset='utf-8'>
 
-    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-fef7fdfe41dd435c6d82f93b486dc62bc095ebd12cd24fa2a817c8bb45dc073e.css" integrity="sha256-/vf9/kHdQ1xtgvk7SG3GK8CV69Es0k+iqBfIu0XcBz4=" media="all" rel="stylesheet" />
-    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-83e53f1624aa604c4ddbe30d30459bf55c8e735d9029f0f10741db45f146f46b.css" integrity="sha256-g+U/FiSqYExN2+MNMEWb9VyOc12QKfDxB0HbRfFG9Gs=" media="all" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-08a7ddd5fb70803ff8390bcae350fe24cca52e8a1266dedb493c666c1d625366.css" integrity="sha256-CKfd1ftwgD/4OQvK41D+JMylLooSZt7bSTxmbB1iU2Y=" media="all" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-b28da47089b34d9dcbec7dbea0300d38d35cb192c333ae7e08c25dbd6d1f5f0b.css" integrity="sha256-so2kcImzTZ3L7H2+oDANONNcsZLDM65+CMJdvW0fXws=" media="all" rel="stylesheet" />
     
     
     
     
     
 
-    <link as="script" href="https://assets-cdn.github.com/assets/frameworks-f2de4c863a487a877150989f965232bacfde178abf9c1963d9f84c5c19916f0c.js" rel="preload" />
+    <link as="script" href="https://assets-cdn.github.com/assets/frameworks-149d9338c2665172870825c78fa48fdcca4d431d067cbf5fda7120d9e39cc738.js" rel="preload" />
     
-    <link as="script" href="https://assets-cdn.github.com/assets/github-3da11fb1d4d66b3fb20c6939e728684832b73975615e3fd052df8274c9d3484a.js" rel="preload" />
+    <link as="script" href="https://assets-cdn.github.com/assets/github-6d45f8e570048b075fc77ba5e77cde9b3b2311f734a04114e27916e3993debec.js" rel="preload" />
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
@@ -44,7 +44,7 @@
       <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
     <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
     <link rel="assets" href="https://assets-cdn.github.com/">
-    <link rel="web-socket" href="wss://live.github.com/_sockets/MTgzNjAxOTM6NGUwY2EyNGVjZGY5ODI4NTA3YWY1NzU4MmRmNzEwNGE6MDgwMWI3N2VjY2U0MTBjYWFiMDg2MTc3NzhhYTdlZGMwMzM0MDkyZjcyMWUxNjYwYWYzZmQ3NGZkZDMwOTRjNA==--cf252154eac99cf1fa873cc95ec64ea1ff682890">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/MTgzNjAxOTM6YmZkNzA1OTJhYjAxMWRjZGE0NTA1OTA1MTJkMDRjY2I6ZWExZWQ0OGE3ZDBhNjg3NjNkODM5YzI1NzAxZjM0YTQ4OWFiMWMwZDljZjZmMGMzZTM0YTlhM2NiMTdkN2ViYw==--8d674b001c24e1c968e9c3366171efca23814a4e">
     <meta name="pjax-timeout" content="1000">
     <link rel="sudo-modal" href="/sessions/sudo_modal">
 
@@ -56,7 +56,7 @@
 <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="DCFD1BF1:5FE2:9F219F4:577B5217" name="octolytics-dimension-request_id" /><meta content="18360193" name="octolytics-actor-id" /><meta content="thamer90" name="octolytics-actor-login" /><meta content="eab076531e0dfccdbb6ad59acf329d35562bd9f60b434b9a9fd217253370e26d" name="octolytics-actor-hash" />
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="7CAA1A8A:27E0:EB80DEA:577DC5C1" name="octolytics-dimension-request_id" /><meta content="18360193" name="octolytics-actor-id" /><meta content="thamer90" name="octolytics-actor-login" /><meta content="eab076531e0dfccdbb6ad59acf329d35562bd9f60b434b9a9fd217253370e26d" name="octolytics-actor-hash" />
 <meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
 
 
@@ -69,7 +69,7 @@
     <meta name="user-login" content="thamer90">
 
         <meta name="expected-hostname" content="github.com">
-      <meta name="js-proxy-site-detection-payload" content="YjIxZGZjYjkyZjhkM2JmYTM3MzZkMThjZjI1ZWZjOWZkZmMyYjRiYTBmOTc0Y2UyNTM4MjFjNDMwODM3ZWQ2MXx7InJlbW90ZV9hZGRyZXNzIjoiMjIwLjI1My4yNy4yNDEiLCJyZXF1ZXN0X2lkIjoiRENGRDFCRjE6NUZFMjo5RjIxOUY0OjU3N0I1MjE3IiwidGltZXN0YW1wIjoxNDY3Njk5NzQ0fQ==">
+      <meta name="js-proxy-site-detection-payload" content="NzZkMWQ1YTU1MWM2YWQ2NDg5YjQwNjI4NTA0OWU3YTkyMWY0OGVmMGI2MjAyNDgzN2EyZjg3MTdkZTk3ODczM3x7InJlbW90ZV9hZGRyZXNzIjoiMTI0LjE3MC4yNi4xMzgiLCJyZXF1ZXN0X2lkIjoiN0NBQTFBOEE6MjdFMDpFQjgwREVBOjU3N0RDNUMxIiwidGltZXN0YW1wIjoxNDY3ODYwNDE3fQ==">
 
 
       <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#4078c0">
@@ -78,7 +78,7 @@
     <meta name="html-safe-nonce" content="45b3816768735c6f0727edbc46e99b64eecfb909">
     <meta content="3ef0348f37cc4e4c2a25e572be0a5be8c2525c3a" name="form-nonce" />
 
-    <meta http-equiv="x-pjax-version" content="7ca106dd8d4396d47796a4f7b714d8c7">
+    <meta http-equiv="x-pjax-version" content="0a627b6ef199cdefef805e24a4c71c46">
     
 
       
@@ -230,7 +230,7 @@
           Settings
         </a>
 
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="3ef0348f37cc4e4c2a25e572be0a5be8c2525c3a" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ZGzeMAFwnDO47UwGNXya2Rb5cqMxrhb8x0G5YfwxOTeAKUOJlNTBkCYg+7TX+vwEzkOWUzyeYqQL03vSNj+W9A==" /></div>
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="3ef0348f37cc4e4c2a25e572be0a5be8c2525c3a" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="7olZaCNOKNEOxaIED1Bab0bioUIQb5HL8I8+EwDLfRB+PFI44n9+R1/4pp8ILe5LJtjNT2NwXLDaeLR1keSFHw==" /></div>
           <button class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -266,7 +266,7 @@
 <ul class="pagehead-actions">
 
   <li>
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="3ef0348f37cc4e4c2a25e572be0a5be8c2525c3a" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="RyHB+02tQiXiSCT39Lb3Gl9tVxbHuDTuaQqF8lREYRsyiupeysVMNKsruGVdF4LxrYoBc2P7I50zT7ToHbWLsw==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="62110999" />
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="3ef0348f37cc4e4c2a25e572be0a5be8c2525c3a" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="AY3v88zsn21m29+ITUCWfXOpo7CpRvdKTV6uQ3p8RuTctBLdHphmv1JRnfBi+5ZlaiZSDa88IFSxHbKWc1KcpA==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="62110999" />
 
         <div class="select-menu js-menu-container js-select-menu">
           <a href="/thamer90/dental-website/subscription"
@@ -341,7 +341,7 @@
     
   <div class="js-toggler-container js-social-container starring-container ">
 
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/thamer90/dental-website/unstar" class="starred" data-form-nonce="3ef0348f37cc4e4c2a25e572be0a5be8c2525c3a" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="oq1WjWKsYOw5PcK2YOg+fpRbQ/T1cSAOyVSs/FYzTd5B68G2CCa0t4qfp9X+3MIbOtntd6hWcSvCnmkBJvgseg==" /></div>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/thamer90/dental-website/unstar" class="starred" data-form-nonce="3ef0348f37cc4e4c2a25e572be0a5be8c2525c3a" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="g+qNKzKwjuZ2kPaTfzFTcWyuGmQZWah+vxKOWnQ2jPVrQ/hfoBG2SW8TVVAFDMZJzwa1Kk7fA8YGkTCBY+xH/w==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Unstar this repository" title="Unstar thamer90/dental-website"
@@ -353,7 +353,7 @@
           0
         </a>
 </form>
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/thamer90/dental-website/star" class="unstarred" data-form-nonce="3ef0348f37cc4e4c2a25e572be0a5be8c2525c3a" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="hUM48pAmQ27iUAQXZP8Z1wUTMHA/npEJRbbWaGf+3DeR021lhx4IxBEgdDSjtR8UyKFLfwU2e2843SPB5pmUug==" /></div>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/thamer90/dental-website/star" class="unstarred" data-form-nonce="3ef0348f37cc4e4c2a25e572be0a5be8c2525c3a" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="SsO5W9d8n/2FDaC5+QijD5TmON9lLf5e6m/k2sAhwXivZE8SXP23Pt+DTYIF6XSZMlp6N2KVL5yTAdyeru9FWg==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Star this repository" title="Star thamer90/dental-website"
@@ -369,7 +369,7 @@
   </li>
 
   <li>
-          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/thamer90/dental-website/fork" class="btn-with-count" data-form-nonce="3ef0348f37cc4e4c2a25e572be0a5be8c2525c3a" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="TG5hKsLAD1cBtlyeOvOEnnwAqwTEaXhODwmp+8YFwHNBjfw3WDeSz1PpZzeFFcL2KHbceFG0G9wSyYZ2VAYVGA==" /></div>
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/thamer90/dental-website/fork" class="btn-with-count" data-form-nonce="3ef0348f37cc4e4c2a25e572be0a5be8c2525c3a" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="wb4Ci+TD8RxaBr8Eb/PBKcEc/S5iE1OQVl1+gLvdYDU3qN1Tjt+5E7XK3g3IDCnNVYaugkF9xfsouXT06Ez+PA==" /></div>
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -508,7 +508,7 @@
             </a>
         </div>
 
-          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/thamer90/dental-website/branches" class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" data-form-nonce="3ef0348f37cc4e4c2a25e572be0a5be8c2525c3a" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="e0gg9VtgFk17TV8RgylwaPVDiVSLCF0pAGBImmGSrwm0CIJ6xHBz0rHj5adjDgmxmPLc0aX4IAKHOLLlUlk/Hw==" /></div>
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/thamer90/dental-website/branches" class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" data-form-nonce="3ef0348f37cc4e4c2a25e572be0a5be8c2525c3a" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="a1Uy7KKFZ5bJ/8HYfGNMsBJPLug3q6mL993DY/PBVpdrbqcFRux0VlmFRkjbgTGVvUB6t0ngU5AdrvOvW7JEdg==" /></div>
           <svg aria-hidden="true" class="octicon octicon-git-branch select-menu-item-icon" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
             <div class="select-menu-item-text">
               <span class="select-menu-item-heading">Create branch: <span class="js-new-item-name"></span></span>
@@ -547,41 +547,16 @@
   </div>
 </div>
 
-
-  <div class="commit-tease">
-      <span class="right">
-        <a class="commit-tease-sha" href="/thamer90/dental-website/commit/5e0e571c817588a1aeeaa309c9135ddb0afbaac8" data-pjax>
-          5e0e571
-        </a>
-        <relative-time datetime="2016-07-05T06:21:28Z">Jul 5, 2016</relative-time>
-      </span>
-      <div>
-        <img alt="@thamer90" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/18360193?v=3&amp;s=40" width="20" />
-        <a href="/thamer90" class="user-mention" rel="author">thamer90</a>
-          <a href="/thamer90/dental-website/commit/5e0e571c817588a1aeeaa309c9135ddb0afbaac8" class="message" data-pjax="true" title="Update README.md
-
-Updated README.md">Update README.md</a>
-      </div>
-
-    <div class="commit-tease-contributors">
-      <button type="button" class="btn-link muted-link contributors-toggle" data-facebox="#blob_contributors_box">
-        <strong>1</strong>
-         contributor
-      </button>
-      
-    </div>
-
-    <div id="blob_contributors_box" style="display:none">
-      <h2 class="facebox-header" data-facebox-id="facebox-header">Users who have contributed to this file</h2>
-      <ul class="facebox-user-list" data-facebox-id="facebox-description">
-          <li class="facebox-user-list-item">
-            <img alt="@thamer90" height="24" src="https://avatars2.githubusercontent.com/u/18360193?v=3&amp;s=48" width="24" />
-            <a href="/thamer90">thamer90</a>
-          </li>
-      </ul>
-    </div>
+<include-fragment class="commit-tease" src="/thamer90/dental-website/contributors/master/README.md">
+  <div>
+    Fetching contributors&hellip;
   </div>
 
+  <div class="commit-tease-contributors">
+    <img alt="" class="loader-loading left" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" />
+    <span class="loader-error">Cannot retrieve contributors at this time</span>
+  </div>
+</include-fragment>
 <div class="file">
   <div class="file-header">
   <div class="file-actions">
@@ -599,12 +574,12 @@ Updated README.md">Update README.md</a>
             <svg aria-hidden="true" class="octicon octicon-device-desktop" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"></path></svg>
         </a>
 
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/thamer90/dental-website/edit/master/README.md" class="inline-form js-update-url-with-hash" data-form-nonce="3ef0348f37cc4e4c2a25e572be0a5be8c2525c3a" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="HS5ac+Exi48XtS4xQCSss4JYMRSrrra9h8Z8hSaiSr12cEH2W9bwQqDDDdzu65sm/NMyKxQTSpm2UfrmfjRiuQ==" /></div>
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/thamer90/dental-website/edit/master/README.md" class="inline-form js-update-url-with-hash" data-form-nonce="3ef0348f37cc4e4c2a25e572be0a5be8c2525c3a" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="cksgGjBYrBOz0QV6RT/Q4nqW7lcWAW7/5b62GVkXij3YEIKO+FOK+R69Tv4zrjyXQrhwuj7ehIqBjhsMeHAPhg==" /></div>
           <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
             aria-label="Edit this file" data-hotkey="e" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"></path></svg>
           </button>
-</form>        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/thamer90/dental-website/delete/master/README.md" class="inline-form" data-form-nonce="3ef0348f37cc4e4c2a25e572be0a5be8c2525c3a" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="riRob47G4KEc5mownd5g4ZhHvD3IM0nMhBcsCXm+9G32b1cG4+eVe2+yGFrKsmqJekxCmBrzJBEFqi4CdWuTNw==" /></div>
+</form>        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/thamer90/dental-website/delete/master/README.md" class="inline-form" data-form-nonce="3ef0348f37cc4e4c2a25e572be0a5be8c2525c3a" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="kbZkTFIMX1ebm2Q0o55Q390mqhSLaWy2aO15ArdyglXK7E2MOafa3x6X0uNjk8WsE32LVASRy7d6zQFzIHOzKw==" /></div>
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Delete this file" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"></path></svg>
@@ -661,7 +636,7 @@ Updated README.md">Update README.md</a>
       <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
 </a>
     <ul class="site-footer-links">
-      <li>&copy; 2016 <span title="0.06699s from github-fe140-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2016 <span title="0.09528s from github-fe136-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
@@ -685,8 +660,8 @@ Updated README.md">Update README.md</a>
 
 
       
-      <script crossorigin="anonymous" integrity="sha256-8t5MhjpIeodxUJifllIyus/eF4q/nBlj2fhMXBmRbww=" src="https://assets-cdn.github.com/assets/frameworks-f2de4c863a487a877150989f965232bacfde178abf9c1963d9f84c5c19916f0c.js"></script>
-      <script async="async" crossorigin="anonymous" integrity="sha256-PaEfsdTWaz+yDGk55yhoSDK3OXVhXj/QUt+CdMnTSEo=" src="https://assets-cdn.github.com/assets/github-3da11fb1d4d66b3fb20c6939e728684832b73975615e3fd052df8274c9d3484a.js"></script>
+      <script crossorigin="anonymous" integrity="sha256-FJ2TOMJmUXKHCCXHj6SP3MpNQx0GfL9f2nEg2eOcxzg=" src="https://assets-cdn.github.com/assets/frameworks-149d9338c2665172870825c78fa48fdcca4d431d067cbf5fda7120d9e39cc738.js"></script>
+      <script async="async" crossorigin="anonymous" integrity="sha256-bUX45XAEiwdfx3ul53zemzsjEfc0oEEU4nkW45k96+w=" src="https://assets-cdn.github.com/assets/github-6d45f8e570048b075fc77ba5e77cde9b3b2311f734a04114e27916e3993debec.js"></script>
       
       
       
